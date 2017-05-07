@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		348E131C1BDA8AAB007B4140 /* matrix-16px.png in Resources */ = {isa = PBXBuildFile; fileRef = 348E13191BDA8AAB007B4140 /* matrix-16px.png */; settings = {ASSET_TAGS = (); }; };
+		348E131D1BDA8AAB007B4140 /* matrix-22px.png in Resources */ = {isa = PBXBuildFile; fileRef = 348E131A1BDA8AAB007B4140 /* matrix-22px.png */; settings = {ASSET_TAGS = (); }; };
+		348E131E1BDA8AAB007B4140 /* matrix-48px.png in Resources */ = {isa = PBXBuildFile; fileRef = 348E131B1BDA8AAB007B4140 /* matrix-48px.png */; settings = {ASSET_TAGS = (); }; };
+		348E132A1BDB1181007B4140 /* Adium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348E131F1BDB1181007B4140 /* Adium.framework */; settings = {ASSET_TAGS = (); }; };
+		348E132B1BDB1181007B4140 /* AdiumLibpurple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348E13201BDB1181007B4140 /* AdiumLibpurple.framework */; settings = {ASSET_TAGS = (); }; };
+		348E132C1BDB1181007B4140 /* AIUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348E13211BDB1181007B4140 /* AIUtilities.framework */; settings = {ASSET_TAGS = (); }; };
+		348E132D1BDB1181007B4140 /* FriBidi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348E13221BDB1181007B4140 /* FriBidi.framework */; settings = {ASSET_TAGS = (); }; };
+		348E132E1BDB1181007B4140 /* libglib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348E13231BDB1181007B4140 /* libglib.framework */; settings = {ASSET_TAGS = (); }; };
+		348E132F1BDB1181007B4140 /* libgmodule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348E13241BDB1181007B4140 /* libgmodule.framework */; settings = {ASSET_TAGS = (); }; };
+		348E13301BDB1181007B4140 /* libgobject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348E13251BDB1181007B4140 /* libgobject.framework */; settings = {ASSET_TAGS = (); }; };
+		348E13311BDB1181007B4140 /* libgthread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348E13261BDB1181007B4140 /* libgthread.framework */; settings = {ASSET_TAGS = (); }; };
+		348E13321BDB1181007B4140 /* libintl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348E13271BDB1181007B4140 /* libintl.framework */; settings = {ASSET_TAGS = (); }; };
+		348E13331BDB1181007B4140 /* libmeanwhile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348E13281BDB1181007B4140 /* libmeanwhile.framework */; settings = {ASSET_TAGS = (); }; };
+		348E13341BDB1181007B4140 /* libpurple.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 348E13291BDB1181007B4140 /* libpurple.framework */; settings = {ASSET_TAGS = (); }; };
+		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		92F887B80F53AE4F0039CBA9 /* MXMatrixAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F887B30F53AE4F0039CBA9 /* MXMatrixAccount.m */; };
+		92F887B90F53AE4F0039CBA9 /* MXMatrixLibPurpleServicePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F887B50F53AE4F0039CBA9 /* MXMatrixLibPurpleServicePlugin.m */; };
+		92F887BA0F53AE4F0039CBA9 /* MXMatrixService.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F887B70F53AE4F0039CBA9 /* MXMatrixService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		921CAEF10F56FD5200BEFF77 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924CE3D10F60132800AD9F9E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF630370AF2F00C91783 /* AdiumMatrix_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdiumMatrix_Prefix.pch; sourceTree = "<group>"; };
+		348E13191BDA8AAB007B4140 /* matrix-16px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "matrix-16px.png"; sourceTree = "<group>"; };
+		348E131A1BDA8AAB007B4140 /* matrix-22px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "matrix-22px.png"; sourceTree = "<group>"; };
+		348E131B1BDA8AAB007B4140 /* matrix-48px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "matrix-48px.png"; sourceTree = "<group>"; };
+		348E131F1BDB1181007B4140 /* Adium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Adium.framework; path = ../../../../Applications/Adium.app/Contents/Frameworks/Adium.framework; sourceTree = "<group>"; };
+		348E13201BDB1181007B4140 /* AdiumLibpurple.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdiumLibpurple.framework; path = ../../../../Applications/Adium.app/Contents/Frameworks/AdiumLibpurple.framework; sourceTree = "<group>"; };
+		348E13211BDB1181007B4140 /* AIUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AIUtilities.framework; path = ../../../../Applications/Adium.app/Contents/Frameworks/AIUtilities.framework; sourceTree = "<group>"; };
+		348E13221BDB1181007B4140 /* FriBidi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FriBidi.framework; path = ../../../../Applications/Adium.app/Contents/Frameworks/FriBidi.framework; sourceTree = "<group>"; };
+		348E13231BDB1181007B4140 /* libglib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libglib.framework; path = ../../../../Applications/Adium.app/Contents/Frameworks/libglib.framework; sourceTree = "<group>"; };
+		348E13241BDB1181007B4140 /* libgmodule.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libgmodule.framework; path = ../../../../Applications/Adium.app/Contents/Frameworks/libgmodule.framework; sourceTree = "<group>"; };
+		348E13251BDB1181007B4140 /* libgobject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libgobject.framework; path = ../../../../Applications/Adium.app/Contents/Frameworks/libgobject.framework; sourceTree = "<group>"; };
+		348E13261BDB1181007B4140 /* libgthread.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libgthread.framework; path = ../../../../Applications/Adium.app/Contents/Frameworks/libgthread.framework; sourceTree = "<group>"; };
+		348E13271BDB1181007B4140 /* libintl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libintl.framework; path = ../../../../Applications/Adium.app/Contents/Frameworks/libintl.framework; sourceTree = "<group>"; };
+		348E13281BDB1181007B4140 /* libmeanwhile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libmeanwhile.framework; path = ../../../../Applications/Adium.app/Contents/Frameworks/libmeanwhile.framework; sourceTree = "<group>"; };
+		348E13291BDB1181007B4140 /* libpurple.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libpurple.framework; path = ../../../../Applications/Adium.app/Contents/Frameworks/libpurple.framework; sourceTree = "<group>"; };
+		8D5B49B6048680CD000E48DA /* AdiumMatrix.AdiumLibpurplePlugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdiumMatrix.AdiumLibpurplePlugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92F887B20F53AE4F0039CBA9 /* MXMatrixAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXMatrixAccount.h; sourceTree = "<group>"; };
+		92F887B30F53AE4F0039CBA9 /* MXMatrixAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXMatrixAccount.m; sourceTree = "<group>"; };
+		92F887B40F53AE4F0039CBA9 /* MXMatrixLibPurpleServicePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXMatrixLibPurpleServicePlugin.h; sourceTree = "<group>"; };
+		92F887B50F53AE4F0039CBA9 /* MXMatrixLibPurpleServicePlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXMatrixLibPurpleServicePlugin.m; sourceTree = "<group>"; };
+		92F887B60F53AE4F0039CBA9 /* MXMatrixService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXMatrixService.h; sourceTree = "<group>"; };
+		92F887B70F53AE4F0039CBA9 /* MXMatrixService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXMatrixService.m; sourceTree = "<group>"; };
+		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
+				348E13341BDB1181007B4140 /* libpurple.framework in Frameworks */,
+				348E132C1BDB1181007B4140 /* AIUtilities.framework in Frameworks */,
+				348E132D1BDB1181007B4140 /* FriBidi.framework in Frameworks */,
+				348E132B1BDB1181007B4140 /* AdiumLibpurple.framework in Frameworks */,
+				348E13331BDB1181007B4140 /* libmeanwhile.framework in Frameworks */,
+				348E132A1BDB1181007B4140 /* Adium.framework in Frameworks */,
+				348E132F1BDB1181007B4140 /* libgmodule.framework in Frameworks */,
+				348E13321BDB1181007B4140 /* libintl.framework in Frameworks */,
+				348E13311BDB1181007B4140 /* libgthread.framework in Frameworks */,
+				348E132E1BDB1181007B4140 /* libglib.framework in Frameworks */,
+				348E13301BDB1181007B4140 /* libgobject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* AdiumMatrix */ = {
+			isa = PBXGroup;
+			children = (
+				92F887B20F53AE4F0039CBA9 /* MXMatrixAccount.h */,
+				92F887B30F53AE4F0039CBA9 /* MXMatrixAccount.m */,
+				92F887B40F53AE4F0039CBA9 /* MXMatrixLibPurpleServicePlugin.h */,
+				92F887B50F53AE4F0039CBA9 /* MXMatrixLibPurpleServicePlugin.m */,
+				92F887B60F53AE4F0039CBA9 /* MXMatrixService.h */,
+				92F887B70F53AE4F0039CBA9 /* MXMatrixService.m */,
+				32C88E010371C26100C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = AdiumMatrix;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				348E13191BDA8AAB007B4140 /* matrix-16px.png */,
+				348E131A1BDA8AAB007B4140 /* matrix-22px.png */,
+				348E131B1BDA8AAB007B4140 /* matrix-48px.png */,
+				8D5B49B7048680CD000E48DA /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				348E131F1BDB1181007B4140 /* Adium.framework */,
+				348E13201BDB1181007B4140 /* AdiumLibpurple.framework */,
+				348E13211BDB1181007B4140 /* AIUtilities.framework */,
+				348E13221BDB1181007B4140 /* FriBidi.framework */,
+				348E13231BDB1181007B4140 /* libglib.framework */,
+				348E13241BDB1181007B4140 /* libgmodule.framework */,
+				348E13251BDB1181007B4140 /* libgobject.framework */,
+				348E13261BDB1181007B4140 /* libgthread.framework */,
+				348E13271BDB1181007B4140 /* libintl.framework */,
+				348E13281BDB1181007B4140 /* libmeanwhile.framework */,
+				348E13291BDB1181007B4140 /* libpurple.framework */,
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+				D2F7E65807B2D6F200F64583 /* CoreData.framework */,
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B6048680CD000E48DA /* AdiumMatrix.AdiumLibpurplePlugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C88E010371C26100C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF630370AF2F00C91783 /* AdiumMatrix_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D5B49AC048680CD000E48DA /* AdiumMatrix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "AdiumMatrix" */;
+			buildPhases = (
+				8D5B49AF048680CD000E48DA /* Resources */,
+				8D5B49B1048680CD000E48DA /* Sources */,
+				8D5B49B3048680CD000E48DA /* Frameworks */,
+				921CAEF10F56FD5200BEFF77 /* CopyFiles */,
+				924CE3D10F60132800AD9F9E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdiumMatrix;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = AdiumMatrix;
+			productReference = 8D5B49B6048680CD000E48DA /* AdiumMatrix.AdiumLibpurplePlugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "AdiumMatrix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* AdiumMatrix */;
+			projectDirPath = "";
+			projectRoot = ..;
+			targets = (
+				8D5B49AC048680CD000E48DA /* AdiumMatrix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D5B49AF048680CD000E48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348E131E1BDA8AAB007B4140 /* matrix-48px.png in Resources */,
+				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
+				348E131C1BDA8AAB007B4140 /* matrix-16px.png in Resources */,
+				348E131D1BDA8AAB007B4140 /* matrix-22px.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F887B80F53AE4F0039CBA9 /* MXMatrixAccount.m in Sources */,
+				92F887B90F53AE4F0039CBA9 /* MXMatrixLibPurpleServicePlugin.m in Sources */,
+				92F887BA0F53AE4F0039CBA9 /* MXMatrixService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB913B08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ADIUM = "../../adium-1.3.3";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(ADIUM)/build/Development\"",
+					"\"$(SRCROOT)/$(ADIUM)/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = "";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AdiumMatrix_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(ADIUM)/build/Development/Adium.framework/Headers//**",
+					"$(ADIUM)/Frameworks/libintl.framework/Headers//**",
+					"$(ADIUM)/Frameworks/libpurple.framework/Headers/**",
+					"$(ADIUM)/Frameworks/libglib.framework/Headers//**",
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Application Support/Adium 2.0/PlugIns/";
+				OTHER_CFLAGS = (
+					"-DMBPURPLE_VERSION=\\\"0.2.1\\\"",
+					"-DPURPLE_STATIC_PRPL",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cheekybadger.${PRODUCT_NAME:identifier}";
+				PRODUCT_NAME = AdiumMatrix;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = i386;
+				WRAPPER_EXTENSION = AdiumLibpurplePlugin;
+			};
+			name = Debug;
+		};
+		1DEB913C08733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ADIUM = "../../adium-1.3.3";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(ADIUM)/build/Development\"",
+					"\"$(SRCROOT)/$(ADIUM)/Frameworks\"",
+				);
+				GCC_MODEL_TUNING = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AdiumMatrix_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(ADIUM)/build/Development/Adium.framework/Headers//**",
+					"$(ADIUM)/Frameworks/libintl.framework/Headers//**",
+					"$(ADIUM)/Frameworks/libpurple.framework/Headers/**",
+					"$(ADIUM)/Frameworks/libglib.framework/Headers//**",
+				);
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Application Support/Adium 2.0/PlugIns/";
+				OTHER_CFLAGS = (
+					"-DMBPURPLE_VERSION=\\\"0.2.1\\\"",
+					"-DPURPLE_STATIC_PRPL",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cheekybadger.${PRODUCT_NAME:identifier}";
+				PRODUCT_NAME = AdiumMatrix;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = i386;
+				WRAPPER_EXTENSION = AdiumLibpurplePlugin;
+			};
+			name = Release;
+		};
+		1DEB913F08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+				VALID_ARCHS = i386;
+			};
+			name = Debug;
+		};
+		1DEB914008733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+				VALID_ARCHS = i386;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "AdiumMatrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913B08733D840010E9CD /* Debug */,
+				1DEB913C08733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "AdiumMatrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913F08733D840010E9CD /* Debug */,
+				1DEB914008733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
